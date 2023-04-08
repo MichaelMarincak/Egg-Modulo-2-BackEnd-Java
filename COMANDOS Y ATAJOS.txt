@@ -1,0 +1,72 @@
+COMANDOS ÚTILES
+
+int : Es un entero con signo de 32 bits. El valor mínimo es -2,147,483,648 y el valor máximo es 2,147,483,64  (inclusive). Generalmente es la opción por defecto.
+
+double : Es un número decimal.
+
+boolean : Este tipo de dato sólo soporta dos posibles valores: true o false y el dato es representado con tan solo un bit de información.
+
+String : cadena de caracteres
+
+++ : Operador de Incremento.
+
+-- : Operador de Decremento.
+
+concat(String str) : Concatena la cadena del parámetro al final de la primera cadena.
+
+length() : Retorna la longitud de la cadena
+
+substring(int beginIndex, int endIndex) : Retorna la sub cadena desde el carácter del primer parámetro hasta el carácter del segundo parámetro
+
+toLowerCase() : Retorna la cadena en minúsculas
+
+toUpperCase() : Retorna la cadena en mayúsculas
+
+String.valueOf(numEntero) : para convertir cualquier tipo de dato a un String
+
+Integer.parseInt(numCadena) : de String a int 
+
+max(int a, int b) : Devuelve el mayor de dos valores Enteros.
+
+min(int a, int b) : Devuelve el menor de dos valores enteros.
+
+pow(double a, double b) : Devuelve el valor del primer argumento elevado a la potencia del segundo argumento.
+
+random() : El método random podemos utilizarlo para generar números al azar. El rango o margen con el que trabaja el método random oscila entre 0.0 y 1.0 (Este último no incluido)
+Por lo tanto, para generar un número entero entre 0 y 9, hay que escribir la siguiente sentencia:
+int numero = (int) (Math.random() * 10);
+
+round(double a) : Devuelve el long redondeado más cercano al double introducido.(trunc)
+
+sqrt(double a) : Devuelve la raíz cuadrada positiva correctamente redondeada de un double.
+
+Clase Scanner
+
+Scanner leer =new Scanner(System.in); : Funcion leer
+leer.hasNextLine() : nos ayuda a identificar si se ha escrito un valor del tipo  String 
+leer.nextLine() : obtenemos la linea que se ingresa por teclado
+leer.hasNextInt() : verificamos si se ha escrito ese valor de tipo Int
+dato1.nextInt() : obtenemos la linea que se ingresa por teclado
+
+Para completar formatos
+if + TAB : Genera los bloques if.
+sout + TAB : Genera los System.out.println
+fori + TAB : Genera el codigo necesario para hacer un for.
+sw + TAB : Genera el switch.
+whilexp/whilen/whileit + TAB : Genera los bloques while.
+dowhile + TAB : Genera los bloques dowhile.
+PSVM + TAB : Genera la función main.
+
+ALGUNOS ATAJOS en JAVA con Netbeans
+Ctrl + E : Borra línea de codigo donde estoy posicionado.
+Ctrl + S : Guarda los cambios en la clase que estoy posicionado.
+Shift + F6 : RUN main proyect (actual).
+Alt + Shift + F : Le da formato al código.(queda mas legible, ordenado)
+Alt + Enter : Se usa sobre el texto subrayado para ver la sugerencia que nos hace el IDE cuando hay
+algún error de sintaxis o se necesita realizar algún import o surround.
+Ctrl + Shift + : Hace una copia de la línea de código que estabas posicionado.
+Shift + DELETE : Borra toda la línea de código donde estoy posicionada.
+Ctrl + Space : Completa el código que estamos escribiendo.
+Ctrl + U U : Convierte el código a mayúsculas.
+Ctrl + U L : Convierte el código a minúsculas.
+
