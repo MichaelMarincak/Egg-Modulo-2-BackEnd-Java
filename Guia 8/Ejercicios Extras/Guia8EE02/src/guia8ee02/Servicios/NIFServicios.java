@@ -37,7 +37,7 @@ public class NIFServicios {
             n.setLetra(letra);
         }
         int aux = (int) (n.getDNI() % 23);
-        System.out.println("Su NIF es: " + n.getDNI() + "-" + letra[aux]);
+        System.out.printf("Su NIF es: %08d-%s \n", n.getDNI(), letra[aux]);
 
     }
 }
